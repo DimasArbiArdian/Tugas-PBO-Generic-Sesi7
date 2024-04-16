@@ -8,17 +8,17 @@ public class ContohArrayList {
  
         ArrayList<String> nama = new ArrayList<>();
 
-        nama.add("Ajeng");
-        nama.add("Miranti");
-        nama.add("Safitri");
+        nama.add("Dimas");
+        nama.add("Arbi");
+        nama.add("Ardian");
 
         System.out.println("Isi ArrayList: " + nama);
 
-        nama.remove("Safitri");
+        nama.remove("Arbi");
 
-        boolean adaAjeng = nama.contains("Ajeng");
+        boolean adaDimas = nama.contains("Dimas");
 
-        System.out.println("Apakah ada Ajeng? " + adaAjeng;)
+        System.out.println("Apakah ada Dimas? " + adaDimas;)
 
         System.out.println("Isi ArrayList setelah dihapus: " + nama);
     }
